@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size:20px;
+    margin:0;
+    color:#000;
+}
+h1, h2 {
+    font-weight:400;
+}
+.flex {
+    display:flex;
+}
+.left {
+    width: 20%;
+    background-color: #e1dede;
+    padding:80px 40px 50px 40px;
+}
+.photo {
+    text-align:center;
+    margin-bottom:20px;
+}
+.photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+}
+.left h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    font-size: 28px;
+    margin-top:0;
+    margin-bottom:10px;
+}
+.left a,
+.left p {
+    color:#000;
+    font-size: 20px;
+    text-decoration: none;
+    margin:0;
+}
+.details_item {
+    margin-bottom:40px;
+}
+.right {
+    width:80%;
+    padding:80px 60px 50px 60px;
+}
+.right h1 {
+    font-size: 50px;
+    border-bottom: 3px solid #e1dede;
+    padding-bottom: 30px;
+}
+.right h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.6px; 
+    margin-bottom: 0;
+}
+.right ul {
+    padding: 0 0 0 20px; 
+}
+.right ul li + li {
+    margin-top: 15px;
+}
+.right .experience_title,
+.right .studies_title {
+    background-color: #e1dede;
+    padding: 15px 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.experience_item {
+    margin-bottom: 40px;
+}
+.date {
+    color: #958c8c;
+    margin-top:10px;
+    display:block;
+}
+.right .experience_job-description ul {
+    color: #958c8c;
+}
+.experience_company {
+    font-weight:400;
+}
+.studies_item {
+    margin-bottom: 40px;
+}
+.studies .date {
+    margin:20px 0;
+}
